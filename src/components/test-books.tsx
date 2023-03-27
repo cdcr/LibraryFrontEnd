@@ -38,8 +38,8 @@ export default function TestBooks()
             <div className="mt-5">
                 <select className="btn btn-dark dropdown-toggle"  value={selects} onChange={e => setSelects(e.target.value)}>
                 <option value={"title"}>Title</option>
-                <option value={"firstname"}>First Name</option>
-                <option value={"lastname"}>Last Name</option>
+                <option value={"firstName"}>First Name</option>
+                <option value={"lastName"}>Last Name</option>
                 <option value={"type"}>Type</option>
                 <option value={"isbn"}>ISBN</option>
                 <option value={"category"}>Category</option>
